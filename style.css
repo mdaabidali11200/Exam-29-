@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    background-color: whitesmoke;
+    height: 200px;
+    width: 1345px;
+    border-top: 10px tomato groove;
+    border-bottom: 10px tomato groove;
+    border-left: 10px tomato groove;
+    border-right: 10px tomato groove;
+    gap: 5px;
+    
+}
+.header a:hover{
+    background-color: rgb(252, 4, 4);
+    color: rgb(255, 255, 255);
+}
+/* .aside img{
+    height: 500px;
+    width: 1345px;
+    margin-left: 5px;
+} */
+.fakimg{
+    padding: 100px;
+    height: 1360px;
+    width: 1360px;
+    background-image: linear-gradient(to bottom right,red,blue,yellow,green,white,chartreuse);
+    color: chartreuse;
+    border: 25px yellow groove;
+
+    
+}
+.fakimg .h1{
+    text-align: left;
+}
+.right{
+    display: flex;
+
+}
+.footer{
+    height: 50px;
+    width: 1360px;
+    text-align: center;
+}
